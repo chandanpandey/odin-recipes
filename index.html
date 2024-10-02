@@ -4,13 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <style>
+       body{
+        background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .site.heading{
+
+        text-align: center;
+        border: 2px solid violet;
+        background-color: rgb(223, 121, 223);
+        color: white;
+        align-self: center;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        }
+        .content{
+            width: 60%;
+            height: auto;
+            margin-right: auto;
+            margin-left: auto;
+          }
+      .display.items{
+        display: block;
+        height: 400px;
+        width: 400px;
+        padding: 20px;
+        margin: 15px;
+        display: inline-block;
+        align-self: center;
+      }
+
+    </style>
 </head>
 <body>
-  <h1>Odin Recipes</h1>
-  <p>We have following recipes. Click on the images to open the recipes.</p>
-  <h2>Tandoori Chicken</h2>
-  <a href="./recipes/tandoori-chicken.html"><img src="./images/tandoori.webp" height="200"></a>
-  <h2>Slow Cooker Butter Chicken</h2>
-  <a href="./recipes/butter-chickem.html"><img src="./images/Butter_chicken.webp" height="200"></a>
+  <h1 class="site heading">Odin Recipes</h1>
+  <div class="site content">
+  <p style="text-align: center;font-size: large;">We have following recipes. Click on the images to open the recipes.</p>
+  <h2 class="display items">Tandoori Chicken
+    <a href="./recipes/tandoori-chicken.html"><img src="./images/tandoori.webp" height="350"></a>
+  </h2>
+  <h2 class="display items">Slow Cooker Butter Chicken
+    <a href="./recipes/butter-chickem.html"><img src="./images/Butter_chicken.webp" height="350"></a>
+  </h2>
+  </div>
 </body>
 </html>
